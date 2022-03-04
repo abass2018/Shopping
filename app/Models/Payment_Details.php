@@ -15,7 +15,7 @@ class Payment_Details extends Model
         'status',
         
 ];
-public function Order_Details(){
+public function order_details(){
     return $this->belongsTo(Order_Details::class,'order_id','id');
 }
 }
